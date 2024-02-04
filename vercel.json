@@ -1,0 +1,11 @@
+{
+    "name": "my-tkinter-app",
+    "runtime": "python3.8",
+    "buildCommand": "python3 -m pip install -r requirements.txt && python3 main.py",
+    "routes": [
+      {
+        "src": "main.py",
+        "use": "@vercel/python3"
+      }
+    ]
+  }
